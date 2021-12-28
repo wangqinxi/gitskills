@@ -1,0 +1,216 @@
+/* 内容 */
+.article{
+    /* border: 1px solid red;   */
+    float: left;
+    width: 1920px;
+    height: 660px;
+    margin-top: -1px;
+    background: url("../img/xiangsheng/background3.png") no-repeat;  
+}
+
+#aside{
+   /* display: flex; */
+     width: 1000px; 
+    height: 650px; 
+     margin:  0 auto;
+     /* border: 1px solid blue;   */
+ 
+}
+.lefl_box{
+   display: flex;
+    width: 1000px; 
+    height: 220px; 
+      margin: 100px auto 0 auto;
+     /* border: 1px solid red;     */
+   /* width: 1000px; */
+    /* height: 450px;  */
+   /* margin-left: 277px ; */
+    /* border: 1px solid red;    */
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+     width: 396px;  
+    height: 189px; 
+     margin-top: 24px;
+    /* border: 1px solid yellow;    */
+}
+.top_laft{
+   
+    width: 287px;
+    height: 134px;
+    margin-left:  10px; 
+    margin-top:  40px; 
+    line-height: 24px;
+     /* border: 1px solid olive;   */
+}
+.top_laft>p{
+    margin-top: 4px;
+    width: 287px;
+     font-size: 10px;
+     color: rgb(185, 178, 178);
+     /* border: 1px solid olive;   */
+
+}
+h2 {
+     color: rgb(197, 154, 21);
+}
+a{
+     color: rgb(255, 200, 26);
+}
+.top_right{
+     /* border: 1px solid red;  */
+     width: 46px;
+     height: 41px;
+     position:relative;
+     left:-25px;
+     top:27px; 
+}
+.top_right>img{
+     width: 48px;
+     height: 50px;
+     z-index: 99;
+     overflow:hidden ;
+      /* border: 1px solid yellow;   */
+}
+/**********************************/
+
+.top1{
+    display: flex;
+    width:500px;
+    height: 129px;
+    margin-top: 8px; 
+    margin-left: 94px;
+     /* border: 1px solid yellow;   */
+}
+.top_laft2{
+     width:360px;
+     margin-top: 16px;
+     margin-left: 68px;
+      /* border: 1px solid yellow; */
+}
+.top_laft2>p{
+    margin-top: 6px;
+      width:360px;
+      line-height: 20px;
+     font-size: 10px;
+     color: rgb(185, 178, 178);
+       /* border: 1px solid olive;    */
+}
+.play>img{
+     width: 52px;
+     height: 51px;
+     z-index: 99;
+     overflow:hidden ;
+     /* border: 1px solid yellow;   */
+}
+.play{
+     width: 46px;
+     height: 41px;
+     position:relative;
+     left:22px;
+     top:7px;
+} 
+
+.picture{
+   /* background: url("../assets/xiangshen/dig-Carousel1.jpg"); */
+   /* margin-left: 500px; */
+   width: 335px;
+   height: 171px;
+   position: relative;
+    left: 376px;
+   top: -59px; 
+   overflow: hidden;
+     border: 2px solid rgb(14, 69, 163);
+    /* border: 1px solid aquamarine;   */
+}
+.picture>img{
+   width: 335px;
+   height: 171px;
+   /* border: 1.5px solid rgb(48, 63, 85); */
+   z-index: -9;
+
+}
+.bottom{
+   display: flex;
+   width: 1000px;
+   height: 176px;
+     margin-top: -40px ; 
+    /* border: 1px solid red;   */
+}
+.top3{
+   display: flex;
+   justify-content: space-between;
+    width: 421px;
+    height: 176px;
+   /* border: 1px solid olive;     */
+}
+.top_laft3{
+    margin-top: 43px;
+    margin-left: 27px;
+    width: 293px;
+    height: 125px;
+   /* border: 1px solid olive;     */
+}
+.top_laft3>p{
+      width: 293px;
+      height: 125px;
+      margin-top: 5px;
+      line-height: 22px;
+      font-size: 10px;
+      color: rgb(185, 178, 178);
+      /* border: 1px solid olive;   */
+}
+.top_right3{
+     /* border: 1px solid red;     */
+     width: 35px;
+     height: 50px;
+     position:relative;
+     left:-27px;
+     top:33px;
+}
+.top_right3>img{
+       width: 35px;
+     height: 50px;
+     overflow:hidden ;
+      /* border: 1px solid yellow;  */
+}
+#top4{
+    display: flex;
+    width: 522px;
+    height: 150px;
+    margin-left: 55px;
+    margin-top: -8px;
+    /* border: 1px solid yellow;  */
+}
+.top_laft4{
+    margin-top: 51px;
+    margin-left: 24px;
+    height: 97px;
+     /* border: 1px solid olive;     */
+    width: 415px;
+    color: rgb(185, 178, 178);
+}
+.top_laft4>p{
+     width: 435px;
+     height: 69px;
+     font-size: 10px;
+     margin-top: 5px;
+     line-height: 20px;
+     color: rgb(185, 178, 178);
+     /* border: 1px solid firebrick;    */
+}
+.top_right4{
+    /* border: 1px solid red;    */
+     width: 46px;
+     height: 41px;
+     position:relative;
+     left:16px;
+     top: 13px;
+}
+.top_right4>img{
+     width: 50px;
+     height: 50px;
+     overflow:hidden ;
+    /* border: 1px solid yellow;   */
+}

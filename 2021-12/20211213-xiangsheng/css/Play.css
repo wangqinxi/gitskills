@@ -1,0 +1,79 @@
+.pay_box{
+   /* border: 1px solid red;      */
+    float: left;
+    width: 1920px;
+    height: 578px;
+     background: url("../img/xiangsheng/background4.png") no-repeat;   
+
+}
+#pay_maxbox{
+    /* border: 1px solid red;   */
+    width: 1000px;
+    height: 478px;
+    /* margin-top: 61px ;
+    margin-left: 277px ; */
+    margin: 100px auto 0 auto;
+    display: flex;
+    justify-content: space-between;    
+}
+.top_pics{
+    /* border: 1px solid red; */
+    width: 1000px;
+    height: 471px;
+    display: flex;
+    justify-content: space-between;    
+}
+.content_pics{
+    /* overflow: hidden; */
+    width: 783px;
+    height: 471px ;   
+}
+#content_ul{
+    width: 783px;
+    height: 471px ; 
+    border:  2px solid rgb(48, 63, 85); 
+}
+#content_ul>li>img{
+    width: 783px;
+    height: 471px ;  
+}
+.small_pics img.active{	 
+    position: relative;
+    border:  2px solid orange;  
+}
+/* 小图片 */
+.small_pics{
+    margin-left: 26px;
+    margin-top: 25px;
+    width: 194px;
+    height: 471px ;
+   
+}
+.small_pics img{
+    margin-top: 11px;
+    width: 197px;
+    height: 121px ;
+    border:  2px solid rgb(48, 63, 85);   
+} 
+.navigate{
+    width: 118px;
+    height: 35px;
+   /* border:  1px solid red; */
+    position: relative;
+    top: -6px;
+    left: -152px;  
+  }
+#navigate2{
+    width: 118px;
+    height: 35px;
+    /* border:  1px solid red; */      
+}
+#navigate2>img{
+    width: 118px;
+    height: 35px;
+}
+.next{
+    position: relative;
+    top:418px;
+    left: 0;  
+}

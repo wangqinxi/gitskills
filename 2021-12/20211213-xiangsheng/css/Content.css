@@ -1,0 +1,85 @@
+.detailed{
+    
+    width: 1920px;
+    height: 524px;
+    float: left;
+    margin-top: -1px;
+    background: url("../img/xiangsheng/background2.png") no-repeat; 
+}
+#detailed-1{
+      width: 1000px;
+      height: 524px;
+      margin: 0 auto;
+      display: flex;
+       /* border: 1px solid red;      */
+   
+     
+}
+.pics>ul{
+    width: 674px;
+    height: 310px;
+    margin-top: 144px ;
+    display: flex;
+    flex-flow: wrap;
+    margin-left: -10px;
+     /* border: 1px solid red;     */
+}
+.pics>ul>li{
+    width: 205px;
+    height: 139px;   
+   border:  2px solid rgb(48, 63, 85);   
+     overflow:hidden ; 
+     text-align: center;
+    margin-top: 10px;
+    margin-left: 13px; 
+   
+}
+ul>li>p>a{
+  color: rgb(226, 205, 205);
+}
+.pics>ul>li>img{
+  /* width: 205px;
+  height: 139px;    */
+     position: relative;
+     left: -206px;
+     top: -108px;
+     /* overflow: hidden; */
+     z-index: 1;
+       
+}
+.pics>ul>li>p{     
+  position: relative;
+     left: 0;
+     top: 117px; 
+     z-index: 2;
+     background-color: rgb(21, 46, 82); 
+   
+}
+
+.content_right{
+  margin-top: 38px;
+   width: 300px;
+  height: 335px;
+  border:  2px solid rgb(48, 63, 85); 
+   margin-left: 20px; 
+}
+.content_right>img{
+  width: 300px;
+  height: 335px;
+  margin-bottom: 10px;
+}
+.font>span{
+  line-height: 20px;
+  font-size: 10px;
+  color: rgb(146, 145, 139);
+}
+.font>a{
+  
+  color: rgb(255, 200, 26);
+   font-size: 14px;
+}
+
+
+
+
+

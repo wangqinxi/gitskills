@@ -1,0 +1,112 @@
+/* Patternp */
+
+.patternp{
+    /* border: 1px solid red;      */
+    float: left;
+    width: 1920px;
+    height: 700px;
+    margin-top: -1px;
+    background: url("../img/xiangsheng/background5.png") no-repeat;   
+}
+ .active{border:2px solid orange;}
+#patternp_maxbox{
+      /* border: 1px solid red;    */
+    width: 1000px;
+    height: 545px;
+    margin: 155px auto 0 auto;
+    display: flex; 
+    justify-content: space-between;   
+}
+.box_content{
+    width: 607px;
+    height: 340px;
+    border:  2px solid rgb(48, 63, 85);  
+}
+.box_content>li{
+    width: 607px;
+    height: 344px;
+    /* border: 1px solid red; */
+}
+.box_content>li>img{
+    width: 607px;
+    height: 344px;
+  
+}
+/* 小图片 */
+#small_box{
+    width: 499px;
+    height: 100px;
+    margin: 10px auto 0 55px;
+    /* border: 1px solid red;    */
+    display: flex;
+    justify-content: space-around;
+     /* box-sizing: border-box; */
+    position: relative;
+    z-index: 999;
+}
+   
+#small_box>img{
+    width: 144px; 
+    height: 93px;
+    border:  2px solid rgb(48, 63, 85);   
+
+}
+#small_box img.actives{ border:  2px solid orange;  
+    }
+#Btn{
+    width: 610px;
+    height: 100px;
+    /* border:  2px solid orange;  */
+    position: relative;
+    left: 0;
+    top: -100px;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    padding:5px 0;
+    box-sizing: border-box;
+    }
+ .navigate_left{margin-top: 7px;}
+
+.reight_picture{
+    margin-top: 6px;
+    margin-left: 20px;
+}
+.reight_picture{
+     width: 316px;
+     height: 179px;
+     margin:  20px auto 0 auto;
+     overflow: hidden;
+     border:  1px solid rgb(48, 63, 85);  
+}
+
+
+.picture_rg{  
+     width: 348px;
+     height: 446px;
+     margin-right: 18px;
+     background-color: rgb(17, 25, 31) ;
+}
+.tbas{
+    width: 233px;
+    height: 197px;
+    margin-top: 10px;
+    margin-left: 30px;
+    /* border:  2px solid orange; */
+}
+
+.tbas li{
+    width: 233px;
+    height: 29px; 
+    list-style-type:initial;
+    text-align: left;
+    color: white;
+    /* border:  2px solid orange; */
+}
+
+.tbas>li>a{
+     width: 207px;
+     height: 124px; 
+     font-size: 10px;
+     color: rgb(146, 145, 139);
+}
